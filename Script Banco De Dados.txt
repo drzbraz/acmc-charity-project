@@ -1,0 +1,50 @@
+create table Consultas(
+paciente_cpf varchar(12),
+medico_cpf varchar(12),
+id_consulta int primary key auto_increment,
+data_consulta date not null,
+diag_med varchar(300)
+);
+
+alter table Consultas
+add foreign key (medico_cpf)
+references Medicos(cpf);
+
+
+alter table Consultas
+add foreign key (paciente_cpf)
+references Pacientes(cpf);
+
+create table Pacientes(
+CPF VARCHAR(12) primary KEY,
+Nome VARCHAR (50),
+DataNasc DATE ,
+RG VARCHAR(15) NOT null,
+TituloEleitor VARCHAR(13),
+NomeMae VARCHAR (50),
+EstadoCivil VARCHAR(25) NOT null,
+Familiares VARCHAR (50),
+Celular VARCHAR(11),
+TelefoneFixo VARCHAR (10),
+ContatoAmigo VARCHAR(11),
+Mail VARCHAR (50),
+ReCadBiometrico VARCHAR(1),
+QntConsultas INT,
+CEP VARCHAR (9),
+Rua VARCHAR (50),
+Número VARCHAR(10),
+Complemento VARCHAR(50),
+Bairro VARCHAR (50),
+Cidade VARCHAR (50),
+Estado VARCHAR (50)
+);
+
+create table Medicos(
+CPF VARCHAR(12) primary KEY,
+Nome VARCHAR (50),
+DataNasc DATE ,
+RG VARCHAR(15) NOT null,
+EstadoCivil VARCHAR(25) NOT null,
+Celular VARCHAR(11),
+Mail VARCHAR (50)
+);
