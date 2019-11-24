@@ -7,22 +7,39 @@
 ## Tela Menu Principal
 ![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Menu%20Principal.png) 
 
-## Tela Cadastrar Paciente
-![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Cad_Paciente.png) 
-
-### Funcionalidades 
+### Funcionalidades Cadastro Paciente
 * Validação de CPF
 * Buscador de CEP
 * O botão de cadastrar habilita somente quando os seguintes dados são preenchidos: Nome, Data de Nascimento, CPF, RG, Estado Civil e CEP.
 
-## Tela Gerenciar Cadastro de Paciente
-![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Gen_Paciente.png) 
+## Tela Cadastrar Paciente
+![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Cad_Paciente.png) 
 
-### Funcionalidades 
+### Funcionalidades Gerenciar Cadastro de Paciente
 * Buscador de cadastro por Nome ou CPF
 * Editar Cadastro
 * Excluir Cadastro
 * Atualizar Pagina
+
+## Tela Gerenciar Cadastro de Paciente
+![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Gen_Paciente.png) 
+
+### Funcionalidades Cadastro Médico
+* Validação de CPF
+* Buscador de CEP
+* O botão de cadastrar habilita somente quando os seguintes dados são preenchidos: Nome, Data de Nascimento, CPF, RG e Estado Civil.
+
+## Tela Cadastrar Médico
+![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Cad_M%C3%A9dico.png) 
+
+### Funcionalidades Gerenciar Cadastro de Paciente
+* Buscador de cadastro por Nome ou CPF
+* Editar Cadastro
+* Excluir Cadastro
+* Atualizar Pagina
+
+## Tela Gerenciar Cadastro de Paciente
+![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Gen_Medico.png) 
 
  
 ### Funcionalidades Desenvolvidas
