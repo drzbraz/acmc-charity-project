@@ -41,15 +41,35 @@
 ## Tela Gerenciar Cadastro de Paciente
 ![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Gen_Medico.png) 
 
+### Funcionalidades Cadastro Consulta
+* Buscador de cadastro por Nome ou CPF
+* Cadastra a consulta e decrementa a quantidade de consultas que o paciente tem direito
+* Opção de imprimir
+
+## Tela Cadastrar Consulta
+![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Cad_M%C3%A9dico.png)  
  
-### Funcionalidades Desenvolvidas
-* Interface
-* Operações Aritméticas
-* Raiz Quadrada
-* Potenciação
+### Funcionalidades Imprimir
+* Opção de imprimir ou gerar um PDF
+* É adicionado logo abaixo um campo para assinatura do médico após seu diganóstico.
+
+## Tela Impressão
+![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Func_Imprimir.png)  
+
+### Funcionalidades Gerenciar Consultas
+* Buscador de cadastro por Nome ou CPF
+* Editar Cadastro
+* Excluir Cadastro
+* Atualizar Pagina
+
+## Tela Gerenciar Consultas
+![ACMC-Projeto-Extensao](https://github.com/drzbraz/ACMC-Projeto-Extensao/blob/master/Gen_Consultas.png) 
+
 
 ### Observações
 * Orientado a Objetos
-* Classes Abstratas
+* MySql
+* Windows Forms
+* Vídeo da aplicação funcionando no ambiente: https://www.youtube.com/watch?v=EUJeiuwn660&t=41s
 
-### Desenvolvido por Daniel Braz em Outubro de 2019
+### Desenvolvido por Daniel Braz em Novembro de 2019
