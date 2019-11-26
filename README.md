@@ -72,4 +72,4 @@
 * Windows Forms
 * Vídeo da aplicação funcionando no ambiente: https://www.youtube.com/watch?v=EUJeiuwn660&t=41s
 
-### Desenvolvido por Daniel Braz em Novembro de 2019
+### Desenvolvido por Daniel Braz, Eduardo Ferreira, Erick Leal, Guilherme Ventura, Vinicius Ramos e Marcus Oliveira em Novembro de 2019
